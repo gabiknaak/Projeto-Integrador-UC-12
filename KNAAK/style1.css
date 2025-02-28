@@ -1,0 +1,52 @@
+body {
+  background-color: #FCCD01;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 340px;
+  height: 340px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.botoes a {
+  background-color: rgb(26, 25, 25);
+  color: rgb(250, 195, 16);
+  font-size: 18px;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+}
+
+.botoes a:hover {
+  background-color: #444;
+}
+
+.esquecisenha {
+  color: rgb(26, 25, 25);
+  font-size: 14px; 
+  margin-top: 10px; 
+}
+.form-label {
+  font-weight: bold;
+  text-transform: uppercase;
+}

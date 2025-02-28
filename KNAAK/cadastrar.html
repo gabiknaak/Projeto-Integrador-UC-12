@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="script2.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style1.css" media="screen" />
+    <title>Zé delivery - Cadastrar</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="d-flex justify-content-center align-items-center flex-column">
+            <div class="row justify-content-center">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Digite seu nome completo:</label>
+                        <input class="form-control" id="name" placeholder="Digite seu nome completo">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="cpf" class="form-label">Digite seu CPF:</label>
+                        <input class="form-control" id="cpf" placeholder="Ex: 123.456.789-10" maxlength="14">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label">Digite seu telefone:</label>
+                        <input class="form-control" id="telefone" placeholder="Ex: (11) 98765-4321" maxlength="15">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail" class="form-label">Digite seu Email:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Ex: exemplo@dominio.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Senha:</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha" maxlength="8">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="confirmPassword" class="form-label">Confirmar Senha:</label>
+                        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirme sua senha" maxlength="8">
+                    </div>
+                    <div class="botoes">
+                        <a href="entrar.html" onclick=validarSenha(event)>FINALIZAR CADASTRO</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <img src="./img/qual-a-margem-de-lucro-do-ze-delivery.jpg" class="img-fluid rounded-circle"  >
+    </div>
+    <script src="script2.js"></script>
+
+    <footer class="footer text-center mt-4">
+        <p>&copy; 2025 Zé Delivery. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
